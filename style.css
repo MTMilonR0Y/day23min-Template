@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-menu{
+    background-color: black;
+    color: #fff;
+}
+.menu{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu .logo img{
+    width: 100px;
+}
+
+
+.menu{}
+.menu .manu-section{}
+.menu .manu-section ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu .manu-section ul li{
+    list-style: none;
+    text-align: center;
+}
+.menu .manu-section ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 10px;
+    border-bottom: 2px solid #fff;
+    margin: 10px 0 0 10px;
+}
+
+/* Dubble section */
+.flex-contain{
+    display: flex;
+    flex-grow: 1;
+    margin-top: 100px;
+
+}
+.justfy-align{
+    display: flex;
+    
+}
+.contain-start{
+    width: 30%;
+    height: 300px;
+    border: 1px solid green;
+    margin: auto;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.contain-center .item{
+    width: 70px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+  
+}
+.contain-center{
+    width: 30%;
+    height: 300px;
+    border: 1px solid green;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.contain-start .item{
+    width: 70px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+}
+.contain-end{
+    width: 30%;
+    height: 300px;
+    border: 1px solid green;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+.contain-end .item{
+    width: 70px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #fff;
+}
+
+
+/* three items */
+.thre-item{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.flex-items{
+    border: 1px solid green;
+    margin: 0px 20px;
+    display: flex;
+    flex-grow: 0;
+    padding: 30px;
+    flex: 1;
+}
+.flex-item .grow-item{
+    flex-grow: 2;   
+}
+
+
+
+/* flex-section */
+
+
+.three-item{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.flex-items2 {
+	display: flex;
+	border: 1px solid green;
+	justify-content: space-around;
+	padding: 50px 15px;
+	margin: 20px 12px;
+	width: 100%;
+    height:auto;
+	flex-flow: wrap;
+    flex-grow: 2;
+    align-items: center;
+   
+}
+
+.flex-items2 .tow{
+    display: flex;
+    border: 1px solid green;
+    justify-content: space-around ;
+    flex-flow: wrap;
+
+}
+.flex-btn{
+    background-color: red;
+    border: 1px solid green;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-flow: row row-reverse;
+
+}
+.flex-items2 .one{ 
+
+}
+.flex-items2{}
+.flex-items2 .tow{ 
+    flex-wrap: wrap;
+}
+.flex-items2{}
+.flex-items2 .tiri{ }
+
+
+
+.flex-contain .right-sidber{
+    border-left: 2px solid red;
+    background-color: #ddd;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 40%;
+}
+.flex-item{
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+/* Fotter section */
+.bgColor{
+    background-color: rgb(35, 34, 34);
+  
+}
+.footer-menu{   
+}
+.footer-menu ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+.footer-menu ul li{
+    list-style: none;
+    padding: 10px 20px;
+    border-bottom: 2px solid #fff;
+    margin:10px 0 0 10px;
+    
+}
+.footer-menu ul li a{
+    text-decoration: none;
+    color: #fff;
+}
